@@ -156,6 +156,7 @@ p .see-more{
     font-size: 25px;
     color: white;
 }
+
 /* media quary */
 
 /* mobile */
@@ -199,6 +200,16 @@ p .see-more{
         width: 100%;
         padding: 5px;
     }
+    p .see-more{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+    .card-header{   
+        display: flex;
+        justify-content: center;
+    }
 
 }
 /* tablet */
@@ -241,6 +252,16 @@ p .see-more{
     .main-footer{
         width: 100%;
         padding: 0px;
+    }
+    p .see-more{
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+        align-items: center;
+    }
+    .card-header{   
+        display: flex;
+        justify-content: center;
     }
 
     
