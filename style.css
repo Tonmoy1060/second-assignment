@@ -122,6 +122,7 @@ p .see-more{
     margin: 50px 30px;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 
 /* first footer */
@@ -200,6 +201,7 @@ p .see-more{
     }
 
 }
+/* tablet */
 @media only screen and ( min-width: 577px ) and ( max-width: 769px ) {
     .navbar, .intro-part, .card-header, .cards, .see-more, .first-footer{
         display: grid;
@@ -216,6 +218,9 @@ p .see-more{
     .cards .card{
         width: 100%;
         height: 100%;
+    }
+    .card-header{
+        text-align: center;
     }
     li a{
         margin: 0px;
